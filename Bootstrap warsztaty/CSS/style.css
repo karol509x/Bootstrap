@@ -6,4 +6,28 @@ font-family: 'Montserrat', sans-serif;*/
 nav
 {
     font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    color: white;
+}
+
+.navbar-default
+{
+    background-color: transparent;
+}
+
+#header
+{
+    background-image: url(../IMG/header/pictures_on_the_wall.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header
+{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    color: white;
 }
