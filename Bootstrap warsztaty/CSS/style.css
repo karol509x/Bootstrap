@@ -319,5 +319,49 @@ section
     color: #777;
 }
 
+#main-footer
+{
+    padding: 10px 0;
+}
+
+#main-footer nav,
+#main-footer .copyrights
+{
+    line-height: 50px;
+    margin: 0;
+}
+
+#main-footer nav,
+#main-footer .social-icons
+{
+    text-align: center;
+}
+#main-footer nav ul li 
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#main-footer nav ul li a
+{
+    color: #777;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+#main-footer nav ul li a:hover{
+    color: #0ed8d6;
+}
+
+przygotuj plik resposnive.css w nim do 768:
+zmien kolor tla dla #main-nav i #main-nav.scrolled na biały;
+zmien kolor linkow w navie na #0ed8d6, na hover  #777
+linki przyklej do prawej  strony ulzmien kolor belek burgera (.icon-bar) na #0ed8d6 
+w sekcji contact odsun marginesem poszczegolne koluimny (margin-bootm)
+footer wszyustko na text-align:center
+
+do 480
+zmien font-size dla h1, h2/h3 w header 
 
 
