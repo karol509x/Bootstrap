@@ -128,3 +128,110 @@ section
     background-color: #f7f7f7;
     border: 1px solid #f7f7f7;
 }
+
+
+
+
+/*Portfolio*/
+#portfolio
+{
+    background-color: #f7f7f7;
+}
+
+#portfolio .single-portfolio-item
+{
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#portfolio .single-portfolio-item .portfolio-image-container
+{
+    height: 300px;
+    overflow: hidden;
+}
+
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image
+{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.4s ease-in-out;
+}
+
+#portfolio-item-1
+{
+    background: url(../IMG/portfolio/house_with_blue_doors.jpg) no-repeat;
+}
+
+#portfolio-item-2
+{
+    background: url(../IMG/portfolio/box_of_cookies.jpg) no-repeat;
+}
+
+#portfolio-item-3
+{
+    background: url(../IMG/portfolio/chaotic_paint.jpg) no-repeat;
+}
+
+#portfolio-item-4
+{
+    background: url(../IMG/portfolio/chestnut_on_bracket.jpg) no-repeat;
+}
+
+#portfolio-item-5
+{
+    background: url(../IMG/portfolio/child_with_blue_paint.jpg) no-repeat;
+}
+
+#portfolio-item-6
+{
+    background: url(../IMG/portfolio/typing_on_laptop.jpg) no-repeat;
+}
+
+
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image .portfolio-item-mask
+{
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(14, 216, 214, 0.85);
+    transition: all 0.4s ease-in-out;
+    position: relative;
+}
+
+/*portfolio hovers*/
+
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image:hover
+{
+    transform: scale(1.2);
+}
+
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image .portfolio-item-mask:hover
+{
+    opacity: 1;
+}
+
+#portfolio .single-portfolio-item .portfolio-image-container .portfolio-image .portfolio-item-mask .fa
+{
+    color: #FFFFFF;
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#portfolio
+{
+    text-align: center;
+    padding: 
+}
+
+.row
+{
+    margin: 40px;
+}
+
+
+
