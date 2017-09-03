@@ -4,6 +4,16 @@ margin: 0 ;
 
 }
 
+h3, h4, h5, h6
+{
+    color: #333333;
+}
+
+p
+{
+    color: #777777;
+}
+
 /*header styles*/
 
 #header {
@@ -84,4 +94,37 @@ color: #fff;
     font-weight: 600;
     font-size: 2em;
     transition: all 0.4s;
+}
+
+section
+{
+    background-color: #f7f7f7;
+    padding: 60px 0;
+}
+
+.row i
+{
+    margin-top: 50px;
+}
+
+#services .fa
+{
+    font-size: 30px;
+    color: white;
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    border-radius: 50%;
+    transition: all 0.4s;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+
+#services .fa:hover
+{
+    transform: rotate(360deg);
+    color: #0ed8d6;
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
 }
